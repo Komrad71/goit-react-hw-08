@@ -1,0 +1,11 @@
+.contactList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 стовпчики */
+  gap: 20px; 
+  padding: 0;
+  list-style: none;
+}
+
+.contactListItem {
+  width: 100%;
+}
